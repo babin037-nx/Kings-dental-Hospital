@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+}
+header{
+    background-color: #5a055b;
+    padding: 5px;
+}
+header p{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.7vw;
+    bottom: 0;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+}
+header b{
+    color: yellow;
+}
+.hedpng{
+    /* top: 10px; */
+    /* padding: 30px; */
+}
+.hedpng h3{
+    margin:15px 20px;
+    font-size: 25px;
+    color: white;
+    float: right;
+}
+
+.hedpng a img{
+    margin: 3px;
+    float: right;
+    width: 3%;
+}
+
+@media screen and (max-width:800px) {
+    .hedpng img{
+        width: 7%;
+       
+    }
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a055b;
+   
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: hotpink;
+    color: white;
+}
+nav li a:hover:not(.active){
+    background-color:hotpink;
+}
+.active{
+    background-color: hotpink;
+    color: #fff;
+}
+
+
+section h1{
+    text-align: left;
+    margin-left: 50px;
+    color: #e9e905;
+    text-transform: capitalize;
+}
+section h2{
+    text-align: left;
+    margin-left: 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+section p{
+    /* text-align: left; */
+    margin-left: 50px;
+    color: #fff;
+   
+}
+button{
+    padding: 15px;
+    color: #fff;
+    border: 2px solid white;
+    background-color: #ffffff00;
+    font-size: 15px;
+    border-radius: 0px;
+    margin-left: 50px;
+
+}
+button:hover{
+    background-color: #ffffff3a;
+    cursor: pointer;
+}
+.c{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #bbb;
+    
+}
+.c b{
+    font-size: 50px;
+}
+.c h1{
+    text-align: left;
+    color: #5a055b;
+    margin:0 15px;
+}
+.c h3{
+    margin-left: 15px;
+}
+.c p{
+    margin:15px 15px;
+}
+.con{
+    margin:0 50px;
+    padding:10px ;
+    border-style: hidden hidden hidden solid ;
+    background-color: #ccc;
+}
+.d{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+   background-size: cover;
+   text-align: center;
+   color: #fff;
+    
+}
+.d1{
+    background-color: #5a055b5d;
+    padding: 10px;
+    color: #fff;
+   
+}
+.d1 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.d p{
+    /* font-size: 1vw; */
+    text-align: center;
+    text-transform: capitalize;
+}
+/* .d2{
+    width: 100%;
+} */
+.d3{
+    padding: 20px;
+    width: 33.3%;
+    float: left;
+}
+
+.d h1{
+    font-size: 4vw;
+
+}
+.divimg{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color:lightgrey;
+   text-align: center;
+   color: #fff;
+}
+.divimg1{
+    width: 25%;
+    float: left;
+    background-color: ;
+    color: #000;
+    
+}
+.divimg img{
+    width: 100%;
+    padding: 0 10px;
+}
+.divimg h2{
+    color: #000;
+}
+
+footer{
+    background-color: #5a055b;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+footer h1 img{
+   width: 20%;
+}
+
+
+.footimg{
+    text-align: center;
+}
+.footimg img{
+    width: 2.5%;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    color: white;
+}
+.footlast{
+    background-color: #390029;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.footlast b{
+    color: lime;
+}
+
+.whatsapp img{
+    width: 5%;
+    padding: 10px;
+    background-color: darkgreen;
+    float: left;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    cursor: pointer;
+}
+.twitter img{
+    width: 5%;
+    top: 200px;
+    right: 0;
+    padding: 10px;
+    background-color:rgb(40, 163, 212);
+    float: right;
+    position: fixed;
+    cursor: pointer;
+}
+@media screen and (max-width:800px) {
+    li {
+        width: 100%;
+        float: none;
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .hedpng a img {
+        width: 4%;
+        margin:5px 5px;
+        
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .hedpng h3 {
+       float: right;
+        margin:5px 5px;
+        
+       
+    }
+}
+@media screen and (max-width:800px) {
+    footer h1 img{
+        width: 50%;
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .divimg img{
+        width: 100%;
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .footimg img{
+        width: 7%;
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .twitter img,.whatsapp img{
+        width: 10%;
+       
+    }
+}
